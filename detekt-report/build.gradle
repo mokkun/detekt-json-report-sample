@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation "io.gitlab.arturbosch.detekt:detekt-api:1.7.4"
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
