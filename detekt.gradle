@@ -12,7 +12,7 @@ detekt {
         txt.enabled = true // similar to the console output, contains issue signature to manually edit baseline files
         custom {
             reportId = "JsonReport"
-            destination = file("build/reports/detekt/detekt.json")
+            destination = file("$buildDir/reports/detekt/detekt.json")
         }
     }
 }
